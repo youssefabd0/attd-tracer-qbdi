@@ -6,7 +6,13 @@ set(CMAKE_SYSTEM_VERSION 28)
 set(ANDROID_PLATFORM 28)
 set(ANDROID_ABI arm64-v8a)
 
-set(ANDROID_NDK /Users/fangg3/WorkSpace/DevEnv/AndroidSdk/sdk/ndk/27.0.12077973)
+if(DEFINED ENV{ANDROID_NDK})
+        set(ANDROID_NDK $ENV{ANDROID_NDK})
+endif ()
+
+if(NOT DEFINED ANDROID_NDK)
+        message(FATAL_ERROR "Please Set NDK PATH: cmake .. -DANDROID_NDK=\"YOUR_PATH\"")
+endif ()
 set(CMAKE_TOOLCHAIN_FILE ${ANDROID_NDK}/build/cmake/android.toolchain.cmake)
 # End Setting Android Build
 

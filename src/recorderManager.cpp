@@ -46,7 +46,7 @@ void RecorderManager::saveSymbols(TraceRecord &record) const {
                     symbolEntry.symbolNamePoolIndex =  stringCache->addString(symbolEntry.symbolName.c_str());
                 }
                 record.symbols[i].symbolIndex = symbolEntry.symbolNamePoolIndex;
-                LOGS("%s %d",symbolEntry.symbolName.c_str(),record.symbols[i].symbolIndex);
+                LOGD("%s %d",symbolEntry.symbolName.c_str(),record.symbols[i].symbolIndex);
 
             }
         }

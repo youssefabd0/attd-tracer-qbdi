@@ -84,8 +84,12 @@ void TextRecorder::recordProcessInfo(const ProcessRecord &record) {
     *fs_ << "process;";
     *fs_ << "base=" << std::hex << record.base << ";";
     *fs_ << "offset=" << std::hex << record.offset << ";";
-    *fs_ << "env_functions_p=" << std::hex << record.jni_p << ";";
-    *fs_ << "env_functions_data=" << readMemToHex((void*)record.jni_p, sizeof(JNINativeInterface));
+    if (record.jni_p != 0){
+        *fs_ << "env_functions_p=" << std::hex << record.jni_p << ";";
+        *fs_ << "env_functions_data=" << readMemToHex((void*)record.jni_p, sizeof(JNINativeInterface));
+    }else {
+        LOGE("Can not find JniEnv");
+    }
     *fs_ << std::endl;
 }
 

@@ -8,7 +8,7 @@
 #include <android/log.h>
 
 #define LOG_TAG "FANGG3"
-#define log_priority  ANDROID_LOG_SILENT
+#define log_priority  ANDROID_LOG_INFO//ANDROID_LOG_SILENT
 
 
 #define LOGI(fmt, ...)                                                \
@@ -29,7 +29,7 @@
 
 #define LOGD(fmt, ...)                                              \
   do {                                                                        \
-    if (__predict_false(log_priority <= ANDROID_LOG_ERROR))                \
+    if (__predict_false(log_priority <= ANDROID_LOG_DEBUG))                \
       __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, fmt, ##__VA_ARGS__); \
   } while (0)
 

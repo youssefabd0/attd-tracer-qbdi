@@ -14,14 +14,14 @@ uint32_t StringCache::addString(const char* string) {
     if (!string) {
         return 0;
     }
-    LOGS("%d",getTotalStrings())
+    LOGD("%d",getTotalStrings());
     std::lock_guard<std::mutex> lock(mutex_);
     
     std::string str(string);
     auto it = stringToIndex_.find(str);
     if (it != stringToIndex_.end()) {
         // 字符串已存在，返回现有索引
-        LOGS("FINDED")
+        LOGD("FINDED");
         return it->second;
     }
     
