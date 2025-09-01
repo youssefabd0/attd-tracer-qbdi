@@ -1,0 +1,48 @@
+# 构建目录
+build/
+cmake-build-*/
+.cmake/
+
+# 编译产物
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CMake生成文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_*
+CTestTestfile.cmake
+Testing/
+
+# IDE相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+/tmp/
+
+# 日志文件
+*.log
+
+# 个人配置文件
+.claude/
+
+# 忽略文件
+*.ignore
+CLAUDE.md
